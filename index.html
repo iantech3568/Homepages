@@ -4,14 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Georgia</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            nav li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+
+        footer {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Welcome to the Peach State</h1>
-        <img src="georgia-image1.jpg" alt="Georgia Image 1">
-        <img src="georgia-image2.jpg" alt="Georgia Image 2">
-        <img src="georgia-image3.jpg" alt="Georgia Image 3">
+        <img src="https://cdn.britannica.com/36/94336-050-98E16D27/skyline-Atlanta-Ga.jpg" alt="Atlanta Skyline">
+        <img src="https://cdn.britannica.com/46/195746-050-A553D4A9/Georgia-united-states-locator-map.jpg" alt="Georgia Map">
+        <img src="https://cdn.britannica.com/61/66861-050-D9F41AC6/Lily-pads-Okefenokee-Swamp-Georgia.jpg" alt="Okefenokee Swamp">
     </header>
 
     <main>
@@ -28,9 +72,9 @@
         <section>
             <h2>Useful Links</h2>
             <ul>
-                <li><a href="https://www.usa.gov/">U.S. Government</a></li>
-                <li><a href="https://www.senate.gov/">U.S. Senate</a></li>
-                <li><a href="https://www.google.com/">Google</a></li>
+                <li><a href="https://www.usa.gov/" target="_blank">U.S. Government</a></li>
+                <li><a href="https://www.senate.gov/" target="_blank">U.S. Senate</a></li>
+                <li><a href="https://www.google.com/" target="_blank">Google</a></li>
             </ul>
         </section>
     </main>
